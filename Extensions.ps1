@@ -89,9 +89,9 @@ function Kill-All($processNamePattern = $(throw "Please provide a pattern"))
 	}
 }
 
-$env:path += ";C:\s\ps"
+$env:path += ";C:\g\ps"
 $env:path += ";C:\bin"
-$env:path += ";C:\s\t\tools\nunit"
+$env:path += ";C:\g\main\tools\nunit"
 $env:path += ";C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\"
 
 . VersionControl.ps1
